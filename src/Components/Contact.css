@@ -1,0 +1,27 @@
+#User_Form{
+    width: 50%;
+    background-color: rgb(45,178,245);
+    margin-left: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+    font-size: x-large;
+    border: 3px solid black;
+    border-radius: 80px;
+}
+#User_Form input{
+    width: 280px;
+    height: 35px;
+    border: 2px gray solid;
+    border-radius: 30px;
+}
+#User_Form input::placeholder{
+    
+    color: black;
+}
+#Form_Button{
+    width: 110px !important;
+    height: 30px;
+    font-size: small;
+}
