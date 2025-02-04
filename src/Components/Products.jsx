@@ -12,6 +12,7 @@ function Products({props,changeFunction}) {
             </div>
             <div id='Product_Select'>
                 <button onClick={()=>changeFunction(props)}>Add to Cart</button>
+                
             </div>
         </div>
     </div>
