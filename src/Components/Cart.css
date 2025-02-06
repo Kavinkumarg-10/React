@@ -21,12 +21,14 @@
     top: 0px;
     font-size: x-large;
     color: white;
+    left: 20px;
 }
 #Cart_Main2{
     position: absolute;
     top: 105px;
     font-size: larger;
     color: white;
+    left: 20px;
 }
 #Cart_Main3{
     position: absolute;

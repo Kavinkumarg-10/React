@@ -16,8 +16,11 @@ setCartItems((prevData) => [...prevData,value])
         <div id="products">
           <Navigation/>
           <Products props = {Product1} changeFunction={addToCart} />
+          <br />
           <Products props = {Product2} changeFunction={addToCart}/>
+          <br />
           <Products props = {Product1} changeFunction={addToCart}/>
+          <br />
           <Products props = {Product2} changeFunction={addToCart}/>
 
         </div>

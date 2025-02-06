@@ -1,5 +1,6 @@
 import React from 'react'
 import './Products.css'
+import { Button } from '@mui/material'
 function Products({props,changeFunction}) {
   return (
     <div>
@@ -11,7 +12,8 @@ function Products({props,changeFunction}) {
                 <img src={props.source} alt="" />
             </div>
             <div id='Product_Select'>
-                <button onClick={()=>changeFunction(props)}>Add to Cart</button>
+
+                <Button variant="contained" onClick={()=>changeFunction(props)} id='btn'>Add To Cart</Button>
                 
             </div>
         </div>

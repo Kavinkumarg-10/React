@@ -1,0 +1,12 @@
+#About_Main{
+    width: 60%;
+    height: 400px;
+    background-color: rgb(45,178,245);
+    margin-left: 20%;
+    border: gray 5px solid;
+    border-radius: 40px;
+    margin-top: 50px;
+    text-align: center;
+    font-size: large;
+    color: white;
+}
