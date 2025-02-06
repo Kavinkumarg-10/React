@@ -22,6 +22,11 @@ setCartItems((prevData) => [...prevData,value])
           <Products props = {Product1} changeFunction={addToCart}/>
           <br />
           <Products props = {Product2} changeFunction={addToCart}/>
+          <br />
+          <Products props = {Product1} changeFunction={addToCart}/>
+          <br />
+          <Products props = {Product2} changeFunction={addToCart}/>
+          
 
         </div>
         <div id="main_image">
